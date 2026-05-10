@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A cinematic tribute to the two women who shaped everything I am. A love letter rendered in light, memory, and motion." />
+    <meta property="og:title" content="To Mom & My Second Mom — Happy Mother's Day 💛" />
+    <meta property="og:description" content="A cinematic tribute to the two women who shaped everything I am." />
+    <meta property="og:type" content="website" />
+    <title>To Mom &amp; My Second Mom — Happy Mother's Day 💛</title>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Critical above-fold — prevent flash */
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #0a0805;
+        overflow-x: hidden;
+      }
+      #root { min-height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <!-- Grain overlay — rendered at CSS level for performance -->
+    <div id="grain-overlay" aria-hidden="true"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
